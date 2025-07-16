@@ -35,7 +35,7 @@
 
             <div class="ubicacion">
 
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24" fill="none"
                     stroke="#ffc107" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -124,50 +124,46 @@
                     nulla laborum.</p>
             </section>
         </div>
+
         <section>
             <h2>Contacto</h2>
 
             <form class="formulario">
                 <fieldset>
                     <legend>Contactanos llenando los campos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-text" type="text" placeholder="Tu nombre">
+                        </div>
 
-                    <div>
-                        <label for="">Nombre</label>
-                        <input type="text" placeholder="Tu nombre">
-                    </div>
+                        <div class="campo">
+                            <label>Tu numero</label>
+                            <input class="input-text" type="tel">
+                        </div>
 
-                    <div>
-                        <label for="">Tu numero</label>
-                        <input type="tel">
-                    </div>
+                        <div class="campo">
+                            <label>Tu email</label>
+                            <input class="input-text" type="email">
+                        </div>
 
-                    <div>
-                        <label for="">Tu email</label>
-                        <input type="email">
-                    </div>
-
-                    <div>
-                        <label for="">Mensaje</label>
-                        <textarea name="" id=""></textarea>
-                    </div>
-
-                    <div>
-                        <input type="submit" value="Enviar">
+                        <div class="campo">
+                            <label>Mensaje</label>
+                            <textarea class="input-text" name="" id=""></textarea>
+                        </div>
+                    </div><!-- .contenedor-campos -->
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="submit" value="Enviar">
                     </div>
 
                 </fieldset>
             </form>
         </section>
-
-        <footer>
-            <P>Todos los derechos reservados</P>
-        </footer>
-
     </main>
 
-
-
-
+    <footer class="footer">
+        <P>Todos los derechos reservados</P>
+    </footer>
 </body>
 
 </html>
